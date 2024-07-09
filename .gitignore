@@ -1,0 +1,31 @@
+# Binaries
+/bin/
+/pkg/
+
+# Dependency directories (remove if using Go modules)
+/vendor/
+
+# IDE and editor files
+.idea/
+*.swp
+*.swo
+.vscode/
+
+# Test coverage
+coverage.txt
+
+# Logs
+*.log
+
+# Output
+/dist/
+
+# Dependency files
+go.sum
+!go.mod
+
+# Environment files
+.env
+
+# helper 
+todo.md
