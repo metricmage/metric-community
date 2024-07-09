@@ -1,16 +1,12 @@
 # <img src="docs/mage.svg" alt="Logo" height="35"> Metric Mage README
 
-Metric Mage is an open-source analytics platform designed to empower indie developers and game companies by providing detailed insights into their games' performance and player behavior. With a focus on affordability and efficiency, Metric Mage offers a powerful solution for projects targeting at least 100,000 Monthly Active Users (MAU) without incurring significant costs. The server is optimized to run smoothly on a simple $5 VPS, ensuring that even the smallest projects can benefit from powerful analytics.
-
-## Goal
-
-The primary goal of Metric Mage is to help indie developers and game companies improve their games by making data-driven decisions. By offering a cost-effective, easy-to-deploy solution, Metric Mage aims to lower the barrier to entry for analytics in the gaming industry, especially for projects with limited budgets.
+Metric Mage is an open-source analytics platform designed to empower indie developers and game companies. It provides detailed insights into game performance and player behavior, focusing on affordability and efficiency. The open-source version is optimized to handle the vast majority (80%) of mobile games, with up to 100,000 Monthly Active Users (MAU), and can run smoothly on a simple VPS, ensuring that even small projects can benefit from powerful analytics without incurring significant costs.
 
 ## Features
 
 - **Effortless Integration:**
-    - **One-Click Docker Deployment:** A pre-configured Docker image for quick setup on any infrastructure.
-    - **Unity SDK:** A seamless integration with Unity, the leading game engine for mobile development.
+    - **One-Click Docker Deployment:** Pre-configured Docker image for quick setup on any infrastructure.
+    - **Unity SDK:** Seamless integration with Unity, the leading game engine for mobile development.
     - **Future SDKs:** SDKs for other popular game engines (Unreal, Cocos2d, etc.) will be added based on demand.
 - **Essential Analytics:**
     - **Event Tracking:** Track custom in-game events (e.g., level starts, purchases, achievements) with granular details.
@@ -22,7 +18,7 @@ The primary goal of Metric Mage is to help indie developers and game companies i
 - **Mobile-First Focus:**
     - **Device-Specific Metrics:** Track mobile-specific data like device type, OS version, screen resolution, and carrier.
     - **Attribution Tracking:** Measure the effectiveness of marketing campaigns and user acquisition channels.
-- **Optimized for Scale:** Designed to handle at least 100k MAU efficiently, ensuring your analytics grow with your game.
+- **Optimized for Scale:** Open-source version designed to handle up to 100k MAU efficiently. Core and Enterprise versions offer horizontal scaling for unlimited MAU.
 - **Cost-Effective:** Runs on minimal hardware requirements, such as a $5 VPS, without compromising performance.
 
 ## Technologies
@@ -33,7 +29,7 @@ The primary goal of Metric Mage is to help indie developers and game companies i
 
 ## Data Handling
 
-- **Real-Time Data:** Data is processed in a 30-minute timeframe, with the game client capable of sending data offline up to 21 days, ensuring that all historical data is updated accurately.
+- **Real-Time Data:** The game client continuously sends data to the server, with offline data transmitted immediately upon re-establishing an internet connection, provided it is within 21 days of initial collection.
 
 ## Getting Started
 
