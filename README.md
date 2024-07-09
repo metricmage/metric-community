@@ -1,6 +1,6 @@
 # <img src="docs/mage.svg" alt="Logo" height="35"> Metric Mage README
 
-Metric Mage is an open-source analytics platform designed to empower indie developers and game companies. It provides detailed insights into game performance and player behavior, focusing on affordability and efficiency. The open-source version is optimized to handle the vast majority (80%) of mobile games, with up to 100,000 Monthly Active Users (MAU), and can run smoothly on a simple VPS, ensuring that even small projects can benefit from powerful analytics without incurring significant costs.
+Metric Mage is an open-source analytics platform designed to empower indie developers and game companies. It provides detailed insights into game performance and player behavior, focusing on affordability and efficiency. The open-source version is optimized to handle the vast majority (80%) of mobile games, with about 100,000 Monthly Active Users (MAU), and can run smoothly on a simple VPS, ensuring that even small projects can benefit from powerful analytics without incurring significant costs.
 
 ## Features
 
@@ -18,7 +18,7 @@ Metric Mage is an open-source analytics platform designed to empower indie devel
 - **Mobile-First Focus:**
     - **Device-Specific Metrics:** Track mobile-specific data like device type, OS version, screen resolution, and carrier.
     - **Attribution Tracking:** Measure the effectiveness of marketing campaigns and user acquisition channels.
-- **Optimized for Scale:** Open-source version designed to handle up to 100k MAU efficiently. Core and Enterprise versions offer horizontal scaling for unlimited MAU.
+- **Optimized for Scale:** The open-source version is designed to efficiently handle approximately 100k MAU. For unlimited MAU, the Core and Enterprise versions offer horizontal scaling capabilities. Note: the 100k MAU target is likely to be moved up after a stable 1.0 version is released.
 - **Cost-Effective:** Runs on minimal hardware requirements, such as a $5 VPS, without compromising performance.
 
 ## Technologies
@@ -71,12 +71,12 @@ We're fully committed to building a powerful open-source version of Metric Mage.
 Once the open-source version is feature-complete, we plan to expand Metric Mage with additional versions to cater to different needs. Here are the planned versions:
 
 - **Community (Open Source):** All core features, vertical scalability, database, and API can be separated.
-- **Core (SaaS):** Fully managed servers (with horizontal scalability) with commercial and technical support.
-- **Enterprise (SaaS):** Advanced AI and predictive insights for larger studios.
+- **Core (BaaS):** Fully managed servers (with horizontal scalability) with commercial and technical support.
+- **Enterprise (BaaS):** Advanced AI and predictive insights for larger studios.
 
 ### Ongoing Commitment to Open Source
 
-Even as we develop SaaS versions, we're dedicated to maintaining and improving the open-source version. The SDK will remain open source, ensuring seamless compatibility between versions. We believe a strong open-source foundation benefits everyone. By fostering collaboration, we ensure Metric Mage remains valuable and accessible to all game developers.
+Even as we develop BaaS (Backend as a Service) versions, we're dedicated to maintaining and improving the open-source version. The SDK will remain open source, ensuring seamless compatibility between versions. We believe a strong open-source foundation benefits everyone. By fostering collaboration, we ensure Metric Mage remains valuable and accessible to all game developers.
 
 ## License
 
