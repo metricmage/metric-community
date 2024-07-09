@@ -1,4 +1,4 @@
-# Metric Mage
+# ![Logo](docs/mage.svg) Metric Mage README
 
 Metric Mage is an open-source analytics platform designed to empower indie developers and game companies by providing detailed insights into their games' performance and player behavior. With a focus on affordability and efficiency, Metric Mage offers a powerful solution for projects targeting at least 100,000 Monthly Active Users (MAU) without incurring significant costs. The server is optimized to run smoothly on a simple $5 VPS, ensuring that even the smallest projects can benefit from powerful analytics.
 
@@ -72,9 +72,10 @@ We're fully committed to building a powerful open-source version of Metric Mage.
 
 ### Beyond Open Source: Expanding Our Offering
 
-Once the open-source version is feature-complete, we plan to expand Metric Mage with SaaS versions to cater to different needs:
+Once the open-source version is feature-complete, we plan to expand Metric Mage with additional versions to cater to different needs. Here are the planned versions:
 
-- **Core (SaaS):** Managed servers with no MAU limit and support for established companies.
+- **Community (Open Source):** All core features, vertical scalability, database, and API can be separated.
+- **Core (SaaS):** Fully managed servers (with horizontal scalability) with commercial and technical support.
 - **Enterprise (SaaS):** Advanced AI and predictive insights for larger studios.
 
 ### Ongoing Commitment to Open Source
